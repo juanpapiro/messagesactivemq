@@ -1,0 +1,8 @@
+server:
+  port: 8005
+
+spring.activemq.broker-url: tcp://localhost:61616?jms.messagePrioritySupported=true
+spring.activemq.user: admin
+spring.activemq.password: admin
+spring.activemq.queue-name: fila.pedidos
+spring.activemq.topic-name: topico.pedidos
